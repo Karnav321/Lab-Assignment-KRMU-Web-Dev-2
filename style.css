@@ -1,0 +1,152 @@
+/* Personal Portfolio - Lab 2 */
+/* Made by Karnav Tomar */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background-color: #004aad;
+  color: white;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 5px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section Style */
+section {
+  background-color: #fff;
+  margin: 30px auto;
+  padding: 25px;
+  width: 80%;
+  max-width: 800px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+h2 {
+  color: #004aad;
+  margin-bottom: 15px;
+}
+
+/* About Image */
+#about img {
+  display: block;
+  margin: 15px auto;
+  border-radius: 50%;
+  width: 150px;
+}
+
+/* Table */
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #004aad;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #004aad;
+  color: white;
+}
+
+/* Project Section */
+#projects ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#projects li {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin: 10px auto;
+  padding: 15px;
+  width: 70%;
+}
+
+/* Contact Form */
+form {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #004aad;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #004aad;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #00367d;
+}
+
+/* Back to Top Button */
+.back-to-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background-color: #004aad;
+  color: white;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.back-to-top:hover {
+  background-color: #00367d;
+}
+
