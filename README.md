@@ -1,1 +1,2 @@
-# Lab-Assignment-KRMU-Web-Dev-2
+This is my Web Development Lab 2 project.  
+I created a simple personal portfolio using HTML and external CSS.  
